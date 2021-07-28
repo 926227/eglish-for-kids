@@ -1,0 +1,18 @@
+.main {
+  align-self: flex-end;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.star {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  filter: drop-shadow(1px 1px 2px #00000077) drop-shadow(2px 2px 8px #0b97f536);
+}

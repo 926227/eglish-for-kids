@@ -1,0 +1,113 @@
+.main {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: var(--main-color);
+  box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.3);
+}
+
+.menuButton {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50px;
+  height: 50px;
+  margin-left: 10%;
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.menuButton span {
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  /* transform-origin: left; */
+  transition: all 0.3s;
+}
+
+.menuButton.closeType span:nth-child(1) {
+  transform: translateY(15px) rotate(45deg);
+}
+.menuButton.closeType span:nth-child(2) {
+  display: none;
+}
+.menuButton.closeType span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+.gameToggler {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px rgba(9, 11, 14, 0.5) inset;
+  cursor: pointer;
+}
+
+.ball {
+  width: 30px;
+  height: 100%;
+
+  background: linear-gradient(135deg, rgb(252, 98, 98) 50%, rgb(18, 157, 238));
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px rgba(9, 11, 14, 0.6);
+
+  transition: all 0.5s;
+}
+
+.playMode .ball {
+  transform: translateX(70px) rotate(360deg);
+}
+
+.title {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.playMode .title {
+  left: 15px;
+}
+
+.gameButton {
+  width: 120px;
+  padding: 1rem;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  border-radius: 10px;
+  background: #007ce6 radial-gradient(circle at 0 0, #ffffff9d, #fc62623d);
+  box-shadow: inset #0967ccd1 -3px -3px 8px,
+    inset rgba(255, 255, 255, 0.9) 3px 3px 8px,
+    rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+}
+.gameButton img {
+  width: 30px;
+  height: auto;
+}
+
+.gameButton:active {
+  font-size: 18px;
+  transform: translateY(2px);
+  border-style: dotted;
+  box-shadow: inset #0967ccd1 -3px -3px 8px,
+    inset rgba(255, 255, 255, 0.9) 3px 3px 8px,
+    rgba(0, 0, 0, 0.5) 2px 2px 5px -2px;
+}

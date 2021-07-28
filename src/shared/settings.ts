@@ -1,0 +1,20 @@
+export const settings = {
+  actions: {
+    SHOW_SIDEBAR: "SHOW_SIDEBAR",
+    RENDER_SIDEBAR: "RENDER_SIDEBAR",
+    RENDER_CARDFIELD: "RENDER_CARDFIELD",
+    SET_ACTIVE_CATEGORY: "SET_ACTIVE_CATEGORY",
+    PLAY_MODE_ON: "PLAY_MODE_ON",
+    GAME_START: "GAME_START",
+    CORRECT_ANSWER: "CORRECT_ANSWER",
+    WRONG_ANSWER: "WRONG_ANSWER",
+    REPEAT_WORD: "REPEAT_WORD",
+    HIDE_FINAL_PICTURE: "HIDE_FINAL_PICTURE",
+  },
+  showFinalPicture: {
+    no: 0,
+    happy: 1,
+    sad: 2,
+  },
+  cardsPath: "cards/",
+};

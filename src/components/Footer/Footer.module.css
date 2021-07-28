@@ -1,0 +1,30 @@
+.main {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: var(--main-color);
+  box-shadow: 0px -5px 10px 0px rgba(34, 60, 80, 0.3);
+}
+
+.githubImg {
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+}
+
+.rsschoolImg {
+  width: auto;
+  max-height: 100%;
+  margin: 30px;
+}
+
+.year {
+  display: block;
+  width: 200px;
+
+  text-align: center;
+  color: white;
+}

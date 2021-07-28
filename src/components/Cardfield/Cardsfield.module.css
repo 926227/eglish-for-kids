@@ -1,0 +1,11 @@
+.main {
+  flex-grow: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px 15px;
+}

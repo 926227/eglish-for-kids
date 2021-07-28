@@ -1,0 +1,15 @@
+body {
+  /* min-height: 100vh; */
+  margin: 0;
+  background: linear-gradient(180deg, #f3f3fb 0%, #fdfbfd 100%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-color: #129dee;
+  --second-color: #23d5ab;
+}
